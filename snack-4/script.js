@@ -34,11 +34,11 @@ const animals = [
     },
     { nome: 'delfino', 
       famiglia: 'cetaceo', 
-      classe: 'mammifero' 
+      classe: 'mammiferi' 
     },
     { nome: 'orca', 
       famiglia: 'cataceo', 
-      classe: 'mammifero' 
+      classe: 'mammiferi' 
     },
     { nome: 'serpente', 
       famiglia: 'rettile', 
@@ -46,16 +46,16 @@ const animals = [
     },
     { nome: 'gatto', 
       famiglia: 'felidi', 
-      classe: 'mammifero' 
+      classe: 'mammiferi' 
     },
  ]
 
 
 
- const listMammiferi = animals.filter( (class) ) => {
-    if (class = animals.classe) {
-        return true;    
-    }
-    console.log(listMammiferi)
- };
+ const listMammiferi = animals.filter ( (animal) => animal.classe === 'mammiferi' );
+    
+ console.log(listMammiferi);
+
+
+
  
